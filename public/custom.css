@@ -1,0 +1,177 @@
+/*@import '{zurb:foundation-sites}/scss/foundation';
+@include foundation-everything;*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body, html {
+  height: auto
+}
+body {
+  margin-bottom: 538px !important;
+  display: block;
+}
+footer{
+  position: absolute !important;
+  bottom: 0;
+  width: 100%;
+  /*height: 538px;*/
+  height: 520px;
+}
+.quiz img {
+  max-height: 150px
+}
+.result img {
+  max-height: 100px
+}
+input[type="radio"]:checked+label{
+  border: 1px solid gray
+}
+.header-wrap{
+  width: 100%;
+  z-index: 10 !important;
+}
+.header {
+  background-color: white
+}
+#search-dropdown {
+  padding: 6px
+}
+
+.search-icon-toggle {
+  display: block;
+}
+
+.navigation-style-two .top-bar ul li.home a:hover {
+  border-bottom: inherit !important;
+}
+
+@media only screen and (max-width: 40em) {
+  .top-bar-title {
+    display: block !important;
+    padding: 0;
+  }
+
+}
+.top-bar-title .menu-icon {
+  bottom: 8px !important;
+}
+
+.header .logo img {
+  height: 70px !important;
+  margin: -15px 0 !important;
+}
+
+.welcome-message h3 {
+  text-transform: none;
+}
+.section-title p {
+  text-transform: none;
+}
+
+.teacher-meta div{
+  text-align: left;
+}
+
+.top-bar ul ul li a {
+  text-transform: none;
+}
+.slick-slider {
+  overflow: hidden;
+}
+.slick-slide {
+  position: relative;
+}
+.caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 15px;
+  min-height: 38px;
+/*  background-color: rgba(255, 255, 255, 0.5); */
+  z-index: 50;
+  width: 100%;
+  height: 100%;
+  text-align: center
+}
+.course .teacher {
+  position: relative;
+}
+.certificates-page .column:last-child:not(:first-child), .certificates-page .columns:last-child:not(:first-child) {
+  float:left
+}
+.course-thumb .fancybox img {
+  display: block;
+  margin: 0 auto;
+}
+.course {
+  margin-bottom: 10px;
+}
+
+.fixed {
+    position: fixed;
+    right: 15px;
+    bottom: 50%;
+
+    z-index: 99;
+
+}
+.fixed a {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    padding: 0px 0px 0px;
+    font-size: 22px;
+    opacity: .9;
+    display: block;
+    background-color: #FFF;
+    color: #e79800;
+    line-height: 30px;
+    border: 1px solid #e79800;
+}
+.content-section label {
+  font-weight: normal;
+}
+.content-section .inline label {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.bran-logo .thumbnail {
+  margin-bottom:0px;
+  border:1px solid #ededed;
+  padding:3px;
+  opacity:.8;
+  margin-left: 20px;
+  height:155px;
+  width:auto !important;
+}
+
+.testimonial.shrinked {
+  max-height: 170px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+/* .testimonial.shrinked .testimonial-thumb {
+  z-index: 20
+} */
+
+.testimonial.shrinked::after {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+  content: "\f107\f107\f107";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  z-index: 10;
+}
