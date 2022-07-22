@@ -18,7 +18,7 @@
     "classnames": "^2.2.5",
     "cors": "^2.8.4",
     "express": "^4.14.0",
-    "file-type": "^4.4.0",
+    "file-type": "^16.5.4",
     "font-awesome": "^4.7.0",
     "foundation-sites": "^6.3.1",
     "fs-extra": "^3.0.1",
